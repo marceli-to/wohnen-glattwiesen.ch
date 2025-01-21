@@ -9,6 +9,6 @@
       title="{{ $alt }}" 
       height="1600" 
       width="1000"
-      class="block w-full h-auto object-cover aspect-[16/9]">
+      class="block w-full h-auto object-cover aspect-[16/9] lg:aspect-[16/7]">
   </picture>
 </figure>
