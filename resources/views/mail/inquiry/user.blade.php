@@ -1,12 +1,9 @@
 <x-mail::message>
   <div class="text-base pb-base">
-    Sehr geehrte Damen und Herren<br><br>
-    Vielen Dank für Ihr Interesse an unserem Projekt. Wir werden uns freuen, Sie zu kontaktieren, sobald der offizielle Vertrieb beginnt.<br><br>
+    <p>Vielen Dank für Ihre Anfrage. Wir werden diese bearbeiten und melden uns baldmöglichst bei Ihnen.</p>
+    <p>Sie haben folgende Daten an uns übermittelt:</p>
   </div>
   <br>
-  <div class="text-base pb-base">
-    <strong>Ihre Angaben</strong>
-  </div>
   <div class="text-base pb-base">
     <strong>Vorname</strong><br>
     {{ $data->firstname }}
