@@ -17,10 +17,6 @@ export default {
       },
 
       colors: {
-        'fern': '#326338',
-        'beige': '#C3AE99',
-        'linen': '#E7DDD3',
-
         'sage': '#9BACA8',
         'fernwood': '#5B7771',
         'rosewood': '#C19A9C',
