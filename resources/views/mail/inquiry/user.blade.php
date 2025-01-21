@@ -3,7 +3,6 @@
     <p>Vielen Dank für Ihre Anfrage. Wir werden diese bearbeiten und melden uns baldmöglichst bei Ihnen.</p>
     <p>Sie haben folgende Daten an uns übermittelt:</p>
   </div>
-  <br>
   <div class="text-base pb-base">
     <strong>Vorname</strong><br>
     {{ $data->firstname }}
