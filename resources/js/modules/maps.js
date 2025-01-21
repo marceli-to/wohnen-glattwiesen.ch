@@ -3,8 +3,8 @@ const initMap = () => {
   var map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/marcelitoooo/ck16ms7m51nlo1cmwnqrbjuyq?optimize=true',
-      center: [6.590025369034536,46.53118161042164], 
-      zoom: 13
+      center: [8.583209803026746, 47.40314138082128], 
+      zoom: 14
   });
   map.addControl(new mapboxgl.NavigationControl());
   map.scrollZoom.disable();
@@ -15,11 +15,11 @@ const initMap = () => {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [6.590025369034536,46.53118161042164]
+        coordinates: [8.583209803026746, 47.40314138082128]
       },
       properties: {
-        title: 'rue du Chene',
-        description: 'Renens'
+        title: 'Glattwiesen-/Grosswiesenstrasse',
+        description: 'Zürich'
       }
     }]
   };

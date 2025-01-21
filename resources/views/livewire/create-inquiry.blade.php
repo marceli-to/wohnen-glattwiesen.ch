@@ -11,7 +11,7 @@
       </div>
     </div>
   @endif
-  <h3 class="mb-5 md:mb-10 text-white">Ich interessiere mich für (Bitte auswählen):</h3>
+  <h3 class="mb-8 md:mb-12 text-white">Ich interessiere mich für (Bitte auswählen):</h3>
   <x-layout.grid class="sm:gap-y-15 lg:gap-x-25 lg:gap-y-20">
     <x-honeypot />
     <x-layout.span class="relative !col-span-12 !mb-20 md:!mb-10">
@@ -21,39 +21,35 @@
           class="relative right-auto left-0 h-24 mb-5 top-2"
           />
       @enderror
-      <div class="flex flex-col md:flex-row gap-y-7 md:gap-y-0 md:gap-x-40">
+      <div class="flex flex-col md:flex-row gap-y-6 md:gap-y-0 md:gap-x-40">
         <div>
-          <div class="mb-4">
-            <x-form.checkbox name="interest" value="1.5-Zimmer" isWire="true" class="-mt-4" id="interest-15" />
-            <x-form.checkbox-label for="interest-15">1.5-Zimmer</x-form.checkbox-label>
-          </div>
-          <div class="mb-4">
-            <x-form.checkbox name="interest" value="2.5-Zimmer" isWire="true" class="-mt-4" id="interest-25" />
-            <x-form.checkbox-label for="interest-25">2.5-Zimmer</x-form.checkbox-label>
+          <div class="mb-6">
+            <x-form.checkbox name="interest" value="Atelier/Studio" isWire="true" class="-mt-2" id="atelier-studio" />
+            <x-form.checkbox-label for="atelier-studio">Atelier/Studio</x-form.checkbox-label>
           </div>
           <div>
-            <x-form.checkbox name="interest" value="3.5-Zimmer" isWire="true" class="-mt-4" id="interest-35" />
-            <x-form.checkbox-label for="interest-35">3.5-Zimmer</x-form.checkbox-label>
+            <x-form.checkbox name="interest" value="1.5-Zimmerwohnungen" isWire="true" class="-mt-2" id="interest-15" />
+            <x-form.checkbox-label for="interest-15">1.5-Zimmerwohnungen</x-form.checkbox-label>
           </div>
         </div>
         <div>
-          <div class="mb-4">
-            <x-form.checkbox name="interest" value="5-Zimmer" isWire="true" class="-mt-4" id="interest-5" />
-            <x-form.checkbox-label for="interest-5">5-Zimmer</x-form.checkbox-label>
-          </div>
-          <div class="mb-4">
-            <x-form.checkbox name="interest" value="7.5-Zimmer" isWire="true" class="-mt-4" id="interest-75" />
-            <x-form.checkbox-label for="interest-75">7.5-Zimmer</x-form.checkbox-label>
+          <div class="mb-6">
+            <x-form.checkbox name="interest" value="2.5-Zimmerwohnungen" isWire="true" class="-mt-2" id="interest-25" />
+            <x-form.checkbox-label for="interest-25">2.5-Zimmerwohnungen</x-form.checkbox-label>
           </div>
           <div>
-            <x-form.checkbox name="interest" value="Loft" isWire="true" class="-mt-4" id="loft" />
-            <x-form.checkbox-label for="loft">Loft</x-form.checkbox-label>
+            <x-form.checkbox name="interest" value="3.5-Zimmerwohnungen" isWire="true" class="-mt-2" id="interest-35" />
+            <x-form.checkbox-label for="interest-35">3.5-Zimmerwohnungen</x-form.checkbox-label>
           </div>
         </div>
-        <div class="flex justify-end">
+        <div>
+          <div class="mb-6">
+            <x-form.checkbox name="interest" value="4.5-Zimmerwohnungen" isWire="true" class="-mt-2" id="interest-45" />
+            <x-form.checkbox-label for="interest-45">4.5-Zimmerwohnungen</x-form.checkbox-label>
+          </div>
           <div>
-            <x-form.checkbox name="interest" value="Gewerbeflächen" isWire="true" class="-mt-4" id="surfaces-commerciales" />
-            <x-form.checkbox-label for="surfaces-commerciales">Gewerbeflächen</x-form.checkbox-label>
+            <x-form.checkbox name="interest" value="5.5-Zimmerwohnungen" isWire="true" class="-mt-2" id="interest-55" />
+            <x-form.checkbox-label for="interest-55">5.5-Zimmerwohnungen</x-form.checkbox-label>
           </div>
         </div>
       </div>
@@ -71,7 +67,7 @@
       @enderror 
     </x-layout.span>
     <x-layout.span class="relative">
-      <x-form.input name="street" placeholder="Straße/Nummer*" isWire="true" />
+      <x-form.input name="street" placeholder="Strasse/Nr.*" isWire="true" />
       @error('street')
         <x-form.error message="{{ $message }}" />
       @enderror 

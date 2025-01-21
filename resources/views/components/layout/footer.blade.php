@@ -4,6 +4,15 @@
 </x-layout.section>
 @endif
 <footer>
+  <div class="h-125 md:h-145 px-15 md:px-25">
+    <x-layout.inner class="h-full w-full flex justify-between ">
+      <div class="h-[inherit] flex flex-col justify-center">
+        <h3 class="text-sage">Kontakt</h3>
+        Apleona Schweiz AG<br>Industriestrasse 21<br>8304 Wallisellen
+      </div>
+      <x-icons.logo-marketer class="max-w-[145px] md:max-w-[160px] w-full h-auto" />
+    </x-layout.inner>
+  </div>
   <div class="bg-rosewood text-white text-sm py-5 md:py-10 px-15 md:px-25">
     <x-layout.inner>
       <nav>

@@ -12,7 +12,7 @@ main {
 }
 
 h1, h2 {
-  @apply uppercase text-xl lg:text-2xl font-bold  leading-[1.15]
+  @apply uppercase text-xl lg:text-2xl font-semibold leading-[1.15]
 }
 
 h1 {
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-  @apply font-bold text-rosewood uppercase text-base md:text-md mb-5
+  @apply font-semibold text-rosewood uppercase text-base md:text-md mb-5
 }
 
 .imprint h1,

@@ -27,7 +27,7 @@ export default {
       },
 
       fontFamily: {
-        'lexend': ['Lexend', ...defaultTheme.fontFamily.sans],
+        'montserrat': ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {
