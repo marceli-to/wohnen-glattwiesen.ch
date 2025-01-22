@@ -100,7 +100,7 @@
       <div class="flex items-start">
         <x-form.checkbox name="privacy" id="privacy" isWire="true" class="mt-2 lg:mt-3" />
         <x-form.checkbox-label for="privacy">
-          Ich habe die <a href="{{ route('page.privacy') }}" title="Datenschutzerklärung" target="_blank" class="hover:underline underline-offset-2 decoration-1">Datenschutzerklärung</a> gelesen und akzeptiere sie
+          Ich habe die <a href="{{ route('page.privacy') }}" title="Datenschutzerklärung" target="_blank" class="hover:underline underline-offset-2 decoration-1">Datenschutzerklärung</a> gelesen und akzeptiere diese.
         </x-form.checkbox-label>
       </div>
     </x-layout.span>
