@@ -11,7 +11,7 @@ return [
   |
   */
 
-  'title' => 'Venez vivre l’expérience «Creative Factory»',
+  'title' => 'Glattwiesen-/Grosswiesenstrasse Zürich',
 
   /*
   |--------------------------------------------------------------------------
@@ -22,6 +22,6 @@ return [
   |
   */
 
-  'description' => 'Proche de la gare, à la rue du Chêne 5 à Renens, des appartements modernes de 1,5 à 7,5 pièces ainsi que des lofts et des surfaces commerciales seront disponibles à la location dès le 1er septembre 2025.',   
+  'description' => 'Ab anfangs 2027 bieten wir an der Glattwiesen-/Grosswiesenstrasse in Zürich-Schwamendingen moderne Neubauwohnungen an. Die Vielfalt der 255 Wohnungen reicht von gemütlichen Studios bis hin zu grosszügigen Familienwohnungen – ideal für jede Lebensphase.',   
 
 ];
